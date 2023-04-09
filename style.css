@@ -1,0 +1,231 @@
+/*Codigo para a home do site*/
+
+/* Reset de estilos padrão do navegador */
+body, figure, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: rgb(239, 237, 237);
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #999;
+  }
+  
+  /* Estilo da seção de banner */
+  section#home {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #999;
+  }
+  
+  /* Estilo da seção de produtos */
+  section#produtos {
+    padding: 60px 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .produto {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .produto h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .produto p {
+    font-size: 16px;
+  }
+  
+  /* Estilo da seção sobre nós */
+  section#sobre {
+    padding: 60px 20px;
+  }
+  
+  /* Estilo da seção de contato */
+  section#contato {
+    padding: 60px 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #999;
+  }
+  
+
+/*Fim do codigo da home site*/
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* Estilos CSS para o menu */
+ ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  ul.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  ul.menu li a:hover {
+    background-color: #ddd;
+  }
+
+/* Fim do estilo CSS para o menu */
+        containerTabela {
+            background-color: rgb(211, 134, 57);
+            align:center;
+        }
+        /* Estilo para a tabela */
+        .table {
+            width:100%;
+            height:100%;
+            border-collapse: collapse;
+            margin-top: 1px;
+        }
+
+        /* Estilo para as células da tabela */
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        td.linha1{
+            font-size: 18px;
+            background-color: rgb(183, 227, 219);
+            text-align: center;
+        }
+
+        /* Estilo para as células do cabeçalho da tabela */
+        .table th {
+            background-color: #f2f2f2;
+        }
+
+                /* Estilo para as imagens dos produtos */
+        .product-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+            align-items: center;
+          
+        }
+        p.rodape{
+            font-size: 14px;
+            color: #fcfafa;
+            text-align: center;
+            background-color: #080303;
+           
+        }
+  
